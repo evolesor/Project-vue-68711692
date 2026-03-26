@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2026 at 10:46 AM
+-- Generation Time: Mar 26, 2026 at 03:46 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -62,6 +62,16 @@ CREATE TABLE `employees` (
   `active` tinyint(1) DEFAULT 1,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `employees`
+--
+
+INSERT INTO `employees` (`emp_id`, `full_name`, `department`, `salary`, `active`, `created_at`) VALUES
+('EMP001', 'สมชาย ใจดี', 'IT', '35000.00', 0, '2026-03-24 20:49:44'),
+('EMP002', 'สมหญิง ชำนาญ', 'บัญชี', '28000.00', 0, '2026-03-24 20:49:44'),
+('EMP003', 'อนันต์ สุขใจ', 'การตลาด', '25000.00', 0, '2026-03-24 20:49:44'),
+('EMP004', 'สุดา พรหม', 'ทรัพยากรบุคคล', '32000.00', 0, '2026-03-24 20:49:44');
 
 --
 -- Indexes for dumped tables

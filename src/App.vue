@@ -32,19 +32,7 @@
             <li><a class="dropdown-item" href="/show_customer">Show Customer</a></li>
             <li><a class="dropdown-item" href="/show_employees">Show Employees</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Register
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/register">Register</a></li>
-            <li><a class="dropdown-item" href="#">Login</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
+            <li><a class="dropdown-item" href="/add_employee">Add Employee</a></li>
           </ul>
         </li>
 
